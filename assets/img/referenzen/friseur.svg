@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Beispielentwurf: Website für den fiktiven Friseursalon Salon Mira">
+  <defs>
+    <linearGradient id="arch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0D2C6"/>
+      <stop offset="0.55" stop-color="#D49B8A"/>
+      <stop offset="1" stop-color="#9C5F52"/>
+    </linearGradient>
+    <clipPath id="archClip">
+      <path d="M660 610 V390 A230 230 0 0 1 1120 390 V610 Z"/>
+    </clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#2B2220" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FBF6F2"/>
+
+  <!-- Browser -->
+  <rect width="1200" height="44" fill="#ECE8E3"/>
+  <circle cx="26" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="48" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="70" cy="22" r="6.5" fill="#D6D0C8"/>
+  <rect x="420" y="11" width="360" height="22" rx="11" fill="#FFFFFF"/>
+  <text x="600" y="26.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8E8A96">Beispielprojekt · Salon Mira</text>
+
+  <!-- Navigation -->
+  <text x="80" y="102" font-family="Georgia, 'DejaVu Serif', serif" font-size="24" letter-spacing="6" fill="#2B2220">SALON MIRA</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6E625E">
+    <text x="560" y="100">Leistungen</text>
+    <text x="668" y="100">Preise</text>
+    <text x="745" y="100">Team</text>
+    <text x="815" y="100">Kontakt</text>
+  </g>
+  <rect x="952" y="73" width="168" height="44" rx="22" fill="#2B2220"/>
+  <text x="1036" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Termin buchen</text>
+
+  <!-- Hero-Text -->
+  <text x="80" y="236" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" letter-spacing="3.5" fill="#C27F6D">FRISEUR · IN DEINER NÄHE</text>
+  <g font-family="Georgia, 'DejaVu Serif', serif" font-size="66" fill="#2B2220">
+    <text x="76" y="316">Schnitt.</text>
+    <text x="76" y="394">Farbe. <tspan font-style="italic" fill="#C27F6D">Pflege.</tspan></text>
+  </g>
+  <rect x="80" y="430" width="400" height="12" rx="6" fill="#E3D5CE"/>
+  <rect x="80" y="454" width="330" height="12" rx="6" fill="#E3D5CE"/>
+  <rect x="80" y="500" width="236" height="56" rx="28" fill="#C27F6D"/>
+  <text x="198" y="533" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Online Termin buchen</text>
+  <rect x="332" y="501" width="130" height="54" rx="27" fill="none" stroke="#2B2220" stroke-width="1.6"/>
+  <text x="397" y="533" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2B2220">Preise</text>
+
+  <!-- Bogen-Bild -->
+  <path d="M660 610 V390 A230 230 0 0 1 1120 390 V610 Z" fill="url(#arch)"/>
+  <g clip-path="url(#archClip)">
+    <circle cx="975" cy="300" r="62" fill="#FBE9E1" opacity="0.75"/>
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round" opacity="0.55">
+      <path d="M640 600 C720 520 760 430 850 360 S1010 250 1140 300" stroke-width="5"/>
+      <path d="M640 640 C730 560 790 470 880 410 S1030 320 1140 360" stroke-width="3"/>
+      <path d="M660 680 C750 600 820 520 900 470 S1050 400 1150 430" stroke-width="5"/>
+      <path d="M700 700 C780 640 860 580 940 540 S1080 490 1160 500" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="606" y="520" width="236" height="74" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="644" cy="557" r="20" fill="#F6E6DF"/>
+  <path d="M636 557 l6 6 l11 -12" fill="none" stroke="#C27F6D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="552" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2B2220">Termine frei</text>
+  <text x="676" y="574" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9A8A84">Di – Sa, 9 – 19 Uhr</text>
+
+  <!-- Leistungen -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="652" width="330" height="124" rx="20" fill="#FFFFFF"/>
+    <rect x="435" y="652" width="330" height="124" rx="20" fill="#FFFFFF"/>
+    <rect x="790" y="652" width="330" height="124" rx="20" fill="#FFFFFF"/>
+  </g>
+  <g fill="#F6E6DF">
+    <circle cx="132" cy="714" r="28"/>
+    <circle cx="487" cy="714" r="28"/>
+    <circle cx="842" cy="714" r="28"/>
+  </g>
+  <g fill="none" stroke="#C27F6D" stroke-width="2.6" stroke-linecap="round">
+    <path d="M122 704 l20 20 M142 704 l-20 20"/>
+    <path d="M477 724 c6-22 14-22 20 0"/>
+    <path d="M832 724 c4-10 16-10 20 0 M842 700 v12"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="180" y="708" font-size="19" font-weight="bold" fill="#2B2220">Schneiden</text>
+    <text x="180" y="734" font-size="14" fill="#9A8A84">Damen, Herren &amp; Kinder</text>
+    <text x="535" y="708" font-size="19" font-weight="bold" fill="#2B2220">Färben</text>
+    <text x="535" y="734" font-size="14" fill="#9A8A84">Strähnen, Balayage, Tönung</text>
+    <text x="890" y="708" font-size="19" font-weight="bold" fill="#2B2220">Styling</text>
+    <text x="890" y="734" font-size="14" fill="#9A8A84">Hochsteckfrisuren &amp; mehr</text>
+  </g>
+</svg>

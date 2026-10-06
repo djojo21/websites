@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Beispielentwurf: Website für die fiktive Tischlerei Berger">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6B4429"/>
+      <stop offset="1" stop-color="#2E1E13"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F150E" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#1F150E" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#1F150E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="oak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2AE78"/>
+      <stop offset="1" stop-color="#B97F4C"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#2E2A24" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#F7F4EF"/>
+
+  <!-- Browser -->
+  <rect width="1200" height="44" fill="#ECE8E3"/>
+  <circle cx="26" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="48" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="70" cy="22" r="6.5" fill="#D6D0C8"/>
+  <rect x="420" y="11" width="360" height="22" rx="11" fill="#FFFFFF"/>
+  <text x="600" y="26.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8E8A96">Beispielprojekt · Tischlerei Berger</text>
+
+  <!-- Infoleiste -->
+  <rect y="44" width="1200" height="38" fill="#2E2A24"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#CFC6BB">
+    <text x="80" y="68">Meisterbetrieb aus der Region</text>
+    <text x="1120" y="68" text-anchor="end">Mo – Fr 7 – 17 Uhr</text>
+  </g>
+
+  <!-- Navigation -->
+  <rect x="80" y="106" width="40" height="40" rx="8" fill="#C26A2E"/>
+  <path d="M90 136 l10 -20 l10 20 z" fill="#FFFFFF"/>
+  <text x="134" y="133" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="1.5" fill="#2E2A24">TISCHLEREI BERGER</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5E574E">
+    <text x="560" y="132">Leistungen</text>
+    <text x="668" y="132">Projekte</text>
+    <text x="758" y="132">Über uns</text>
+    <text x="850" y="132">Kontakt</text>
+  </g>
+  <rect x="946" y="104" width="174" height="44" rx="8" fill="#C26A2E"/>
+  <text x="1033" y="131" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Angebot anfragen</text>
+
+  <!-- Hero mit Holzbild -->
+  <rect y="170" width="1200" height="400" fill="url(#wood)"/>
+  <g fill="none" stroke="#8C5E3C" stroke-opacity="0.45" stroke-width="2.5">
+    <path d="M0 200 C200 190 300 230 520 215 S900 180 1200 205"/>
+    <path d="M0 250 C180 240 340 280 560 262 S920 228 1200 252"/>
+    <path d="M0 300 C220 292 360 330 600 312 S940 276 1200 300"/>
+    <path d="M0 350 C160 340 380 384 640 362 S960 330 1200 352"/>
+    <path d="M0 400 C240 392 420 430 680 410 S980 380 1200 402"/>
+    <path d="M0 450 C200 440 440 486 700 462 S1000 428 1200 452"/>
+    <path d="M0 500 C260 490 460 530 720 512 S1010 480 1200 502"/>
+    <path d="M0 548 C220 540 480 576 740 560 S1020 530 1200 550"/>
+    <ellipse cx="860" cy="300" rx="60" ry="16"/>
+    <ellipse cx="860" cy="300" rx="34" ry="8"/>
+  </g>
+  <rect y="170" width="1200" height="400" fill="url(#fade)"/>
+
+  <!-- Tisch-Illustration -->
+  <g>
+    <ellipse cx="935" cy="535" rx="210" ry="12" fill="#000000" opacity="0.25"/>
+    <rect x="760" y="380" width="350" height="24" rx="5" fill="url(#oak)"/>
+    <rect x="786" y="404" width="18" height="128" rx="3" fill="#B07443"/>
+    <rect x="1066" y="404" width="18" height="128" rx="3" fill="#B07443"/>
+    <rect x="804" y="420" width="262" height="10" rx="3" fill="#9C653A"/>
+    <rect x="890" y="336" width="58" height="44" rx="6" fill="#E9DED0"/>
+    <path d="M900 336 c0-26 38-26 38 0" fill="none" stroke="#5E8D5A" stroke-width="6"/>
+    <circle cx="905" cy="320" r="11" fill="#6FA06A"/>
+    <circle cx="930" cy="312" r="13" fill="#5E8D5A"/>
+    <circle cx="952" cy="324" r="10" fill="#7BAE73"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="80" y="254" font-size="13" font-weight="bold" letter-spacing="3.5" fill="#E9A46A">TISCHLEREI &amp; INNENAUSBAU</text>
+    <text x="78" y="330" font-size="58" font-weight="bold" fill="#FFFFFF">Maßanfertigung</text>
+    <text x="78" y="398" font-size="58" font-weight="bold" fill="#FFFFFF">aus Holz.</text>
+    <rect x="80" y="428" width="380" height="11" rx="5.5" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="80" y="450" width="300" height="11" rx="5.5" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="80" y="490" width="200" height="54" rx="8" fill="#C26A2E"/>
+    <text x="180" y="522" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Projekt anfragen</text>
+    <text x="304" y="522" font-size="16" fill="#FFFFFF">Unsere Arbeiten →</text>
+  </g>
+
+  <!-- Leistungen -->
+  <text x="80" y="628" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#2E2A24">Unsere Leistungen</text>
+  <g filter="url(#shadow)">
+    <rect x="80" y="656" width="245" height="120" rx="14" fill="#FFFFFF"/>
+    <rect x="345" y="656" width="245" height="120" rx="14" fill="#FFFFFF"/>
+    <rect x="610" y="656" width="245" height="120" rx="14" fill="#FFFFFF"/>
+    <rect x="875" y="656" width="245" height="120" rx="14" fill="#FFFFFF"/>
+  </g>
+  <g fill="#F5E4D6">
+    <rect x="104" y="680" width="44" height="44" rx="10"/>
+    <rect x="369" y="680" width="44" height="44" rx="10"/>
+    <rect x="634" y="680" width="44" height="44" rx="10"/>
+    <rect x="899" y="680" width="44" height="44" rx="10"/>
+  </g>
+  <g fill="none" stroke="#C26A2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M114 696 h24 v18 M114 696 v18 M114 705 h24"/>
+    <path d="M379 714 h8 v-8 h8 v-8 h8 v-8"/>
+    <path d="M648 690 h16 v26 h-16 z M659 704 h.01"/>
+    <path d="M909 714 l12 -24 l12 24 z"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="104" y="754" font-size="17" font-weight="bold" fill="#2E2A24">Möbel nach Maß</text>
+    <text x="369" y="754" font-size="17" font-weight="bold" fill="#2E2A24">Treppen</text>
+    <text x="634" y="754" font-size="17" font-weight="bold" fill="#2E2A24">Türen &amp; Fenster</text>
+    <text x="899" y="754" font-size="17" font-weight="bold" fill="#2E2A24">Innenausbau</text>
+  </g>
+</svg>

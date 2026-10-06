@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Beispielentwurf: Website für das fiktive Fotostudio Lichtblick Fotografie">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5B26B"/>
+      <stop offset="0.6" stop-color="#C8605A"/>
+      <stop offset="1" stop-color="#5E2F52"/>
+    </linearGradient>
+    <linearGradient id="portrait" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D9C6B2"/>
+      <stop offset="1" stop-color="#9C8068"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9D7EA"/>
+      <stop offset="0.45" stop-color="#7FB1D1"/>
+      <stop offset="0.46" stop-color="#2F6F92"/>
+      <stop offset="1" stop-color="#173F57"/>
+    </linearGradient>
+    <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9D8C2"/>
+      <stop offset="1" stop-color="#5B7D63"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7C6C2"/>
+      <stop offset="1" stop-color="#A86F75"/>
+    </linearGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A2F55"/>
+      <stop offset="1" stop-color="#0F1226"/>
+    </linearGradient>
+    <clipPath id="t1"><rect x="80" y="290" width="245" height="300" rx="10"/></clipPath>
+    <clipPath id="t2"><rect x="345" y="290" width="245" height="210" rx="10"/></clipPath>
+    <clipPath id="t3"><rect x="610" y="290" width="245" height="350" rx="10"/></clipPath>
+    <clipPath id="t4"><rect x="875" y="290" width="245" height="250" rx="10"/></clipPath>
+    <clipPath id="t5"><rect x="80" y="610" width="245" height="230" rx="10"/></clipPath>
+    <clipPath id="t6"><rect x="345" y="520" width="245" height="320" rx="10"/></clipPath>
+    <clipPath id="t7"><rect x="610" y="660" width="245" height="180" rx="10"/></clipPath>
+    <clipPath id="t8"><rect x="875" y="560" width="245" height="280" rx="10"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="800" fill="#111214"/>
+
+  <!-- Browser -->
+  <rect width="1200" height="44" fill="#ECE8E3"/>
+  <circle cx="26" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="48" cy="22" r="6.5" fill="#D6D0C8"/>
+  <circle cx="70" cy="22" r="6.5" fill="#D6D0C8"/>
+  <rect x="420" y="11" width="360" height="22" rx="11" fill="#FFFFFF"/>
+  <text x="600" y="26.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8E8A96">Beispielprojekt · Lichtblick Fotografie</text>
+
+  <!-- Navigation -->
+  <text x="80" y="104" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="7" fill="#FFFFFF">LICHTBLICK</text>
+  <text x="80" y="124" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="5.5" fill="#8C8C94">FOTOGRAFIE</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#B4B4BC">
+    <text x="610" y="110">Portfolio</text>
+    <text x="702" y="110">Hochzeiten</text>
+    <text x="808" y="110">Business</text>
+    <text x="898" y="110">Über mich</text>
+  </g>
+  <rect x="1002" y="84" width="118" height="42" rx="21" fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="1.4"/>
+  <text x="1061" y="110" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF">Anfragen</text>
+
+  <!-- Hero-Text -->
+  <text x="600" y="214" text-anchor="middle" font-family="Georgia, 'DejaVu Serif', serif" font-size="46" font-style="italic" fill="#FFFFFF">Momente, die bleiben.</text>
+  <text x="600" y="254" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#8C8C94">HOCHZEITEN · PORTRAITS · BUSINESS</text>
+
+  <!-- Kachel 1: Sonnenuntergang -->
+  <g clip-path="url(#t1)">
+    <rect x="80" y="290" width="245" height="300" fill="url(#sunset)"/>
+    <circle cx="210" cy="460" r="44" fill="#FFE3B0" opacity="0.9"/>
+    <path d="M60 520 L140 440 L200 500 L260 430 L340 520 V600 H60 Z" fill="#3A1F36"/>
+    <path d="M60 560 L160 500 L250 550 L340 510 V600 H60 Z" fill="#26142A"/>
+  </g>
+  <!-- Kachel 2: Portrait -->
+  <g clip-path="url(#t2)">
+    <rect x="345" y="290" width="245" height="210" fill="url(#portrait)"/>
+    <circle cx="468" cy="380" r="40" fill="#3B2C22"/>
+    <path d="M388 510 C394 450 430 428 468 428 S542 450 548 510 Z" fill="#3B2C22"/>
+    <circle cx="540" cy="324" r="70" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+  <!-- Kachel 3: Meer -->
+  <g clip-path="url(#t3)">
+    <rect x="610" y="290" width="245" height="350" fill="url(#sea)"/>
+    <circle cx="790" cy="360" r="26" fill="#FFFFFF" opacity="0.85"/>
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round">
+      <path d="M630 480 q20 -8 40 0 t40 0"/>
+      <path d="M700 520 q20 -8 40 0 t40 0"/>
+      <path d="M640 570 q20 -8 40 0 t40 0 t40 0"/>
+      <path d="M720 610 q20 -8 40 0 t40 0"/>
+    </g>
+    <path d="M700 452 l20 -40 l4 40 z" fill="#FFFFFF"/>
+    <path d="M692 452 h40 l-6 10 h-28 z" fill="#E9E2D3"/>
+  </g>
+  <!-- Kachel 4: Wald -->
+  <g clip-path="url(#t4)">
+    <rect x="875" y="290" width="245" height="250" fill="url(#forest)"/>
+    <g fill="#2F4F3A">
+      <path d="M900 540 l34 -150 l34 150 z"/>
+      <path d="M960 540 l40 -190 l40 190 z"/>
+      <path d="M1030 540 l34 -130 l34 130 z"/>
+    </g>
+    <g fill="#1F3A2A">
+      <path d="M870 540 l26 -90 l26 90 z"/>
+      <path d="M1080 540 l26 -100 l26 100 z"/>
+    </g>
+  </g>
+  <!-- Kachel 5: Ringe -->
+  <g clip-path="url(#t5)">
+    <rect x="80" y="610" width="245" height="230" fill="url(#rose)"/>
+    <g fill="none" stroke="#F4D58D" stroke-width="9">
+      <circle cx="182" cy="712" r="40"/>
+      <circle cx="226" cy="712" r="40"/>
+    </g>
+  </g>
+  <!-- Kachel 6: Stadt bei Nacht -->
+  <g clip-path="url(#t6)">
+    <rect x="345" y="520" width="245" height="320" fill="url(#city)"/>
+    <g fill="#F2C46D">
+      <circle cx="390" cy="580" r="14" opacity="0.35"/>
+      <circle cx="450" cy="620" r="22" opacity="0.25"/>
+      <circle cx="540" cy="570" r="18" opacity="0.4"/>
+      <circle cx="500" cy="650" r="10" opacity="0.5"/>
+      <circle cx="420" cy="680" r="16" opacity="0.3"/>
+      <circle cx="560" cy="700" r="24" opacity="0.2"/>
+    </g>
+    <g fill="#070914">
+      <rect x="350" y="700" width="50" height="140"/>
+      <rect x="404" y="660" width="44" height="180"/>
+      <rect x="452" y="720" width="40" height="120"/>
+      <rect x="496" y="680" width="52" height="160"/>
+      <rect x="552" y="740" width="40" height="100"/>
+    </g>
+    <g fill="#F2C46D" opacity="0.8">
+      <rect x="414" y="676" width="6" height="6"/><rect x="428" y="690" width="6" height="6"/>
+      <rect x="506" y="696" width="6" height="6"/><rect x="524" y="712" width="6" height="6"/>
+      <rect x="362" y="716" width="6" height="6"/><rect x="462" y="736" width="6" height="6"/>
+    </g>
+  </g>
+  <!-- Kachel 7: Business -->
+  <g clip-path="url(#t7)">
+    <rect x="610" y="660" width="245" height="180" fill="#D7D4CF"/>
+    <rect x="610" y="660" width="120" height="180" fill="#C4BFB8"/>
+    <circle cx="732" cy="720" r="26" fill="#2B2B33"/>
+    <path d="M676 800 C680 760 704 748 732 748 S784 760 788 800 Z" fill="#2B2B33"/>
+  </g>
+  <!-- Kachel 8: Felder -->
+  <g clip-path="url(#t8)">
+    <rect x="875" y="560" width="245" height="280" fill="#E8C98A"/>
+    <path d="M860 680 C930 650 1010 690 1130 660 V840 H860 Z" fill="#C9A35E"/>
+    <path d="M860 730 C940 710 1030 740 1130 716 V840 H860 Z" fill="#A9853F"/>
+    <circle cx="1060" cy="610" r="22" fill="#FFF6DE"/>
+  </g>
+</svg>

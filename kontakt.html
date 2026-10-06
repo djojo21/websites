@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – DRZ Studio</title>
+  <meta name="description" content="Kostenlos und unverbindlich anfragen: Erzähl DRZ Studio von deinem Unternehmen und finde das passende Website-Paket.">
+  <meta name="theme-color" content="#14141F">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/poppins/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="index.html" aria-label="DRZ Studio – zur Startseite">
+        <span class="logo__mark">DRZ</span>
+        <span class="logo__sub">STUDIO</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list">
+          <li><a class="main-nav__link" href="index.html">Start</a></li>
+          <li><a class="main-nav__link" href="referenzen.html">Referenzen</a></li>
+          <li><a class="main-nav__link" href="preise.html">Preise</a></li>
+          <li><a class="main-nav__link" href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm" href="kontakt.html">Kostenlos anfragen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow" data-reveal>Kontakt</p>
+        <h1 id="page-title" data-reveal style="--reveal-delay: .08s">Lass uns über deine Website sprechen</h1>
+        <p data-reveal style="--reveal-delay: .16s">Erzähl mir kurz von deinem Unternehmen und deinen Wünschen. Die Anfrage ist kostenlos und unverbindlich – ich melde mich persönlich bei dir.</p>
+      </div>
+    </section>
+
+    <section class="section section--light" aria-label="Kontaktformular">
+      <div class="container contact">
+        <div class="form-card" data-reveal>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name <span class="field__required" aria-hidden="true">*</span></label>
+                <input class="input" type="text" id="name" name="name" autocomplete="name" placeholder="Vor- und Nachname" required aria-describedby="name-error">
+                <p class="field__error" id="name-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="email">E-Mail <span class="field__required" aria-hidden="true">*</span></label>
+                <input class="input" type="email" id="email" name="email" autocomplete="email" placeholder="name@firma.de" required aria-describedby="email-error">
+                <p class="field__error" id="email-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="telefon">Telefon <span class="field__optional">(optional)</span></label>
+                <input class="input" type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="Für einen Rückruf" aria-describedby="telefon-error">
+                <p class="field__error" id="telefon-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="unternehmen">Unternehmen <span class="field__required" aria-hidden="true">*</span></label>
+                <input class="input" type="text" id="unternehmen" name="unternehmen" autocomplete="organization" placeholder="Name deines Unternehmens" required aria-describedby="unternehmen-error">
+                <p class="field__error" id="unternehmen-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field field--full">
+                <label for="paket">Gewünschtes Paket <span class="field__required" aria-hidden="true">*</span></label>
+                <select class="select" id="paket" name="paket" required aria-describedby="paket-error">
+                  <option value="" selected disabled>Bitte auswählen</option>
+                  <option value="start">Start – 29 € / Monat</option>
+                  <option value="business">Business – 59 € / Monat</option>
+                  <option value="premium">Premium – 119 € / Monat</option>
+                  <option value="beratung">Noch unsicher – bitte berate mich</option>
+                </select>
+                <p class="field__error" id="paket-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field field--full">
+                <label for="nachricht">Nachricht <span class="field__required" aria-hidden="true">*</span></label>
+                <textarea class="textarea" id="nachricht" name="nachricht" rows="6" placeholder="Was macht dein Unternehmen? Gibt es schon eine Website oder ein Logo? Was ist dir wichtig?" required aria-describedby="nachricht-error"></textarea>
+                <p class="field__error" id="nachricht-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field field--full">
+                <label class="checkbox" for="datenschutz">
+                  <input type="checkbox" id="datenschutz" name="datenschutz" required aria-describedby="datenschutz-error">
+                  <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verwendet werden. <span class="field__required" aria-hidden="true">*</span></span>
+                </label>
+                <p class="field__error" id="datenschutz-error" aria-live="polite"></p>
+              </div>
+
+              <div class="field--full form-footer">
+                <small>* Pflichtfeld</small>
+                <button class="btn btn--primary" type="submit">
+                  Anfrage senden
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+            <div class="form-success__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <h2>Danke, <span data-name></span>!</h2>
+            <p>Deine Angaben sind vollständig. Ich melde mich so bald wie möglich persönlich bei dir.</p>
+          </div>
+        </div>
+
+        <aside class="contact-aside">
+          <div class="aside-card aside-card--dark" data-reveal style="--reveal-delay: .1s">
+            <h3>So geht es weiter</h3>
+            <ol class="mini-steps">
+              <li><span><strong>Anfrage prüfen</strong>Ich lese mir deine Nachricht in Ruhe durch.</span></li>
+              <li><span><strong>Persönliche Rückmeldung</strong>Ich melde mich per E-Mail oder – wenn gewünscht – telefonisch.</span></li>
+              <li><span><strong>Entwurf</strong>Passt alles, starte ich mit dem ersten Entwurf deiner Website.</span></li>
+            </ol>
+          </div>
+
+          <div class="aside-card" data-reveal style="--reveal-delay: .2s">
+            <h3>Gut zu wissen</h3>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Die Anfrage ist kostenlos und unverbindlich.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>0 € Einrichtung in allen Paketen.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>24 Monate Mindestlaufzeit, danach monatlich kündbar.</li>
+            </ul>
+            <p style="margin-top: 1.25rem;"><a class="link-arrow" href="preise.html">Pakete vergleichen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="logo logo--lg" href="index.html" aria-label="DRZ Studio – zur Startseite">
+            <span class="logo__mark">DRZ</span>
+            <span class="logo__sub">STUDIO</span>
+          </a>
+          <p>Professionelle Websites für kleine Unternehmen – im fairen Monats-Abo, ohne Startkosten.</p>
+        </div>
+        <div>
+          <h2>Seiten</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="referenzen.html">Referenzen</a></li>
+            <li><a href="preise.html">Preise</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Rechtliches</h2>
+          <ul class="footer-links">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© <span data-year>2026</span> DRZ Studio · Jonas Drzyzga</p>
+        <ul class="site-footer__legal">
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/form.js" defer></script>
+</body>
+</html>
